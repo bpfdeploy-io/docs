@@ -41,10 +41,12 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/bpfdeploy-io/docs/tree/main",
         },
         blog: {
           routeBasePath: "/blog",
           showReadingTime: true,
+          editUrl: "https://github.com/bpfdeploy-io/docs/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
