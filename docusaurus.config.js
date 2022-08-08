@@ -11,9 +11,9 @@ const config = {
     "Visualize, monitor and debug your eBPF infrastructure from a single viewpoint",
   url:
     process.env.NODE_ENV === "production"
-      ? "https://docs.bpfdeploy.io"
+      ? "https://bpfdeploy-io-docs.onrender.com"
       : "http://localhost:3000",
-  baseUrl: "/docs/",
+  baseUrl: "/",
   trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -84,7 +84,7 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "/docs",
+                to: "/",
               },
             ],
           },
