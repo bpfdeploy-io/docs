@@ -51,12 +51,6 @@ const config = {
         },
       }),
     ],
-    [
-      "redocusaurus",
-      {
-        specs: [{ spec: "../../api/pkg/docs/swagger.yaml", route: "/api/" }],
-      },
-    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
