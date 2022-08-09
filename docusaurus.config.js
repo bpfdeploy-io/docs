@@ -17,22 +17,11 @@ const config = {
   trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [
-    async function fontCopyPlugin(context, options) {
-      return {
-        name: "docusaurus-fontcopy",
-        configurePostCss(postCssOptions) {
-          console.log("hello from custom plugin");
-          return postCssOptions;
-        },
-      };
-    },
-  ],
   presets: [
     [
       "classic",
@@ -48,6 +37,7 @@ const config = {
           showReadingTime: true,
           editUrl: "https://github.com/bpfdeploy-io/docs/tree/main",
         },
+        pages: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -61,7 +51,7 @@ const config = {
         title: "bpfdeploy.io",
         logo: {
           alt: "bpfdeploy.io",
-          src: "img/logo.svg",
+          src: "img/logosmallwhite.svg",
         },
         items: [
           {
@@ -94,16 +84,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/bpfdeploy",
               },
             ],
           },
@@ -116,7 +98,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/bpfdeploy-io",
               },
             ],
           },
