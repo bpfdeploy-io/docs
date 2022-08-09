@@ -14,4 +14,4 @@ We've started off with syntax highlighting for now to aid developers in understa
 
 In alignment with bpftrace, we've licensed this plugin under the Apache License, Version 2.0.
 
-Happy kernel hacking!
+Happy eBPF hacking!
