@@ -2,7 +2,7 @@
 
 Hosted at [docs.bpfdeploy.io](https://docs.bpfdeploy.io)
 
-Based on [Docusaurus 2](https://docusaurus.io/)
+Based on [Docusaurus.io](https://docusaurus.io/)
 
 ### Installation
 
@@ -13,7 +13,7 @@ $ npm i
 ### Local Development
 
 ```
-$ npm run  start
+$ npm run start
 ```
 
 ### Build
