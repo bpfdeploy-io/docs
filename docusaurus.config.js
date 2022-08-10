@@ -58,6 +58,8 @@ const config = {
         logo: {
           alt: "bpfdeploy.io",
           src: "img/logosmallwhite.svg",
+          href: "https://bpfdeploy.io",
+          target: "_blank"
         },
         items: [
           {
