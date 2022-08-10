@@ -22,6 +22,9 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  plugins: [
+    "./plugins/clicky.js"
+  ],
   presets: [
     [
       "classic",
