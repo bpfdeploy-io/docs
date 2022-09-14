@@ -29,4 +29,4 @@ bpfdeploy.io intends to create a world-class developer experience for eBPF. It a
 
 ## We're just getting started
 
-We're focused on building out the primitives needed to make this a reality and because everything we build would not have been possible without open source software we plan to contribute back most of our work. Feel free to subscribe to [our newsletter](https://bpfdeploy.io/#/newsletter) for updates or [contact us](https://bpfdeploy.io/contact) for any questions.
+We're focused on building out the primitives needed to make this a reality and because everything we build would not have been possible without open source software we plan to contribute back most of our work. Feel free to reach out to us on [Twitter ](https://twitter.com/bpfdeploy) if you have any questions!
